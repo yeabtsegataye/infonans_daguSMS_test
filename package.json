@@ -1,0 +1,19 @@
+{
+  "name": "dagusms_test_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha --no-timeouts",
+    "test2": "mocha --no-timeouts --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "mocha": "^10.3.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.17.0"
+  }
+}
